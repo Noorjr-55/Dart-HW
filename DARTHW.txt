@@ -1,0 +1,71 @@
+void main() {
+  // bool f = false;
+  // num z = x + y; //عشان تاخد int and double مع بعض
+  // String s = "x+y";
+  // print("x= $x"); //بعدها variable
+  // print(s);
+  // print(f);
+  // print("y= $y");
+  //print("x+y=${x + y}");
+  //عشان يطبع الجمع بدون ما تكون الزائد نص
+
+  /*  int x=5;
+  int y=10;
+  /*x=x+y;
+  y=x-y;
+  x=x-y;*/
+  y=y-x;//y=5
+  x=y+x;//x=5+5
+  print("x= $x");
+  print("y= $y");
+ // List<String>=li={"ahmad,ali,moh"};
+  */
+  /* int age=21;
+  if(age>=18){
+    print(age);}
+  
+  else
+    print("invalid");}*/
+
+ // int mark = 87;
+ /* bool x=true;
+  bool y=!x;
+  print(y);*/
+  
+ bool session= false;
+ /* if(session!=true) {
+    print("login");
+  }
+  
+  else {
+    print("home page");
+  }*/
+    //conidition?truevalue:falsevalue
+  (!session?print("login"):print("homepage"));
+}
+  
+ /*   
+  if (mark == 50) {
+    print("pass");
+  } else if (mark >= 60 && mark <= 69) {
+    print("c");
+  } else if (mark >= 70 && mark <= 79) {
+    print("B+");
+  } else if (mark >= 80 && mark <= 89) {
+    print("A-");
+  } else if (mark >= 90) {
+    print("A");
+  } else {
+    print("F");
+  }*/
+
+
+//>
+///<
+//==
+//>=
+//<=
+// !=
+//& and
+//|| or
+// ! not
