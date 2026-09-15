@@ -1,0 +1,77 @@
+void main() {
+  int x = 6;
+ 
+  double y = 6.5;
+  num z = x + y; //عشان تاخد int and double مع بعض
+  String s = "x+y";
+  print("x= $x"); //بعدها variable
+  print(s);
+  print("y= $y");
+  print("x+y=${x + y}"); //عشان يطبع الجمع بدون ما تكون الزائد نص
+}
+//////////////////////////////////////
+exchange (swap)
+ int x=5;
+  int y=10;
+  /*x=x+y;
+  y=x-y;
+  x=x-y;*/
+  y=y-x;//y=5
+  x=y+x;//x=5+5
+  print("x= $x");
+  print("y= $y");
+  
+  ///////////////////////////////////////////
+
+  int mark = 70;
+  if (mark == 50) {
+    print("pass");
+  } else if (mark >= 60 && mark <= 69) {
+    print("c");
+  } else if (mark >= 70 && mark <= 79) {
+    print("B+");
+  } else if (mark >= 80 && mark <= 89) {
+    print("A-");
+  } else if (mark >= 90) {
+    print("A");
+  } else {
+    print("F");
+  }
+///////////////////////////
+ bool session= true;
+  if(session!=true) {
+    print("login");
+  }
+  
+  else {
+    print("home page");
+  }
+//////////////////////
+ bool session= false;
+ /* if(session!=true) {
+    print("login");
+  }
+  
+  else {
+    print("home page");
+  }*/
+    //conidition?truevalue:falsevalue
+  (!session?print("login"):print("homepage"));
+/////////////////////////
+  for(int i=0;i<=5;i++){
+    print(i);
+}
+  
+  int y=0;
+ while(y<5){
+   print("while = $y");
+   y++;
+}
+  List<String>names=["ali","noor","rami"];
+ 
+  /*for( int i=0;i<name.length;i++){
+      print(name[i]);*/
+  
+  for(String name in names){
+    print(name);
+  }
