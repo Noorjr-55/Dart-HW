@@ -1,0 +1,26 @@
+void main() {
+  /////////////////switch cases 
+  int daynum = 0;
+  switch (daynum) {
+    case 0:
+      print("Sunday");
+    case 1:
+      print("Monday");
+    case 2:
+      print("Tuesday");
+    case 3:
+      print("Wednesday");
+    case 4:
+      print("Thursday");
+      break;
+    default:
+      print("Invalid day");
+  }
+  /////////////do while 
+  int i=2;
+  do{ //first one prints whithout checking the while condition 
+    print(i);
+    i++;
+  }
+  while(i<5);
+}
