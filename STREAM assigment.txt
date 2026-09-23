@@ -1,16 +1,3 @@
-/*
-//FUTURE CODE:
-void main() async {
-  print("loading");
-  print(await getData()); //ال getdata قبلها await
-  print("loaded");
-}
-
-Future<String> getData() async {
-  await Future.delayed(Duration(seconds: 5));
-  return "data";
-}
-*/-------------------------------------------------------------------
 //STREAM:assigment:
 Stream<int> downloadProgress() async*{
   for(int i = 0;i<=100;i +=20){
